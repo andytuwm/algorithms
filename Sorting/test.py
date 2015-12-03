@@ -16,5 +16,5 @@ list = [34, 7, 3, 31, 6, 8, 56, 24, 658, 9, 363, 563, 767, 34, 78, 2, 0, 1, 94]
 print("quickSort: ", quickSort.quickSort(list))
 
 print(timeit.timeit('quickSort.quickSort(list)',
-                    setup='import quickSort;list = [34, 7, 3, 31, 6, 8, 56, 24, 658, 9, 363, 563, 767, 34, 78, 2, 0, 1, 94]',
+                    setup='import quickSort;import random;list = [34, 7, 3, 31, 6, 8, 56, 24, 658, 9, 363, 563, 767, 34, 78, 2, 0, 1, 94]',
                     number=30))
